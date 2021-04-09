@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'AC Texto Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../assets/AC Texto Medium'), url('../assets/ACTexto-Medium.woff') format('woff');
+    }
+
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	height: 1000px;
+}
+
+body
+{
+	font-family: 'AC Texto Medium';
+    font-style: normal;
+}
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+header p
+{
+	font-size: 40px;
+	font-family:'AC Texto Medium';
+	font-weight: normal;
+}
+
+header{
+	padding-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.asimMehta
+{
+	margin-right: 10px;
+	cursor: pointer;
+	color: #bfad9f;
+}
+
+.darianHill
+{
+	margin-left: 10px;
+	cursor: pointer;
+	color: #ee9c93;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	clip-path: circle(50% at 50% 50%);
+	margin-bottom: 20px;
+}
+
+.bioName{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.bioCity{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.bioAge
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.hobbies{
+	font-size: 30px;
+	text-align: center;
+}
+
+.asim
+{
+	color: #af8167;
+}
+
+.darian
+{
+	color: #ed5a4a;
+}
+
+.acontainer
+{
+	background-color: #e3dbd0;
+	
+}
+
+.dcontainer
+{
+	background-color: #d7b8bd;
+}
