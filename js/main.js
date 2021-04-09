@@ -16,7 +16,13 @@
 			  
 		function loadBio(event){
 			if (event.target.className.includes('asimMehta')){
+
 				div.classList.remove('dcontainer');
+				name.classList.remove('darian');
+				city.classList.remove('darian');
+				age.classList.remove('darian');
+				hobbies.classList.remove('darian');
+
 				theImg.src = `images/${bio1Info[0]}.jpg`;
 				theImg.style.display = `block`;
 				name.textContent = `Name: ${bio1Info[1]}`;
@@ -37,7 +43,15 @@
 			}
 
 			else if (event.target.className.includes('darianHill')){
+
 				div.classList.remove('acontainer');
+
+				name.classList.remove('asim');
+				city.classList.remove('asim');
+				age.classList.remove('asim');
+				hobbies.classList.remove('asim');
+
+
 				theImg.src = `images/${bio2Info[0]}.jpg`;
 				theImg.style.display = `block`;
 				name.textContent = `Name: ${bio2Info[1]}`;
