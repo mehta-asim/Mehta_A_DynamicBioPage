@@ -1,0 +1,19 @@
+HTML
+
+1. create 2 name tags for selection
+
+2.create empty tags for image and other text
+
+JS
+
+1. create variables for the name tags and the empty content tags
+
+2. create an array with information for person1 and person2
+
+3. create a function which would populate the tags with data from the array when that specific person's name is clicked
+
+4. create and event handler which will call the function.
+
+CSS
+
+1.style the tags
